@@ -98,7 +98,11 @@ sudo /opt/splunkforwarder/bin/splunk list forward-server -auth <user>:<password>
 
 # 10. Installation de Nessus (Tenable) — scan à distance
 
-Décision d'architecture : par manque de temps, Nessus est installé en mode scanner réseau à distance (sur Kali-Internal) plutôt qu'en déploiement d'agents sur chaque VM cible. Les agents Tenable pourront être ajoutés dans une session future.
+Décision d'architecture : par manque de temps, Nessus est installé en mode scanner réseau à distance (sur Kali-Internal) plutôt qu'en déploiement 
+d'agents sur chaque VM cible. Les agents Tenable pourront être ajoutés dans une session future.
+
+<img width="842" height="167" alt="image" src="https://github.com/user-attachments/assets/95af9018-f522-4b6d-9a5c-a41c7a7d347e" />
+
 
 Inscription gratuite (Nessus Essentials, jusqu'à 16 IPs) sur le site Tenable, package .deb transféré via dossier partagé.
 
