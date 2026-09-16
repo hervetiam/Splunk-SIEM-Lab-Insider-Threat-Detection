@@ -1,2 +1,11 @@
 # Splunk-SIEM-Lab-Insider-Threat-Detection
 Ce lab est la suite directe de pfsense-firewall-ips-lab. Alors que le premier projet se concentre sur la défense périmétrique (bloquer les attaques externes), celui-ci simule un scénario où un attaquant a déjà un accès interne au réseau (poste compromis), et démontre comment un SIEM permet de détecter ce type de menace que le firewall ne détecte 
+Lab personnel de cybersécurité simulant la détection d'une menace interne (insider threat) à l'aide d'un SIEM Splunk, dans un environnement 100 % virtualisé (VirtualBox).
+
+#Objectifs
+
+Centraliser les logs de plusieurs sources hétérogènes (pare-feu, Linux, Windows) dans un SIEM Splunk
+Simuler une attaque interne (brute-force SMB) invisible pour le pare-feu périmétrique
+Détecter cette attaque via des requêtes SPL (Search Processing Language)
+Croiser les résultats d'un scan de vulnérabilités (Tenable Nessus) avec les événements de sécurité observés
+Documenter une architecture SIEM réaliste, du déploiement à la détection
