@@ -103,7 +103,4 @@ d'agents sur chaque VM cible. Les agents Tenable pourront être ajoutés dans un
 
 <img width="842" height="167" alt="image" src="https://github.com/user-attachments/assets/95af9018-f522-4b6d-9a5c-a41c7a7d347e" />
 
-
-Inscription gratuite (Nessus Essentials, jusqu'à 16 IPs) sur le site Tenable, package .deb transféré via dossier partagé.
-
 Interface accessible directement depuis le navigateur de la VM Kali : https://localhost:8834
